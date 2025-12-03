@@ -1,6 +1,7 @@
 package com.example.xisdoandre.data.repository
 
 import com.example.xisdoandre.data.model.Product
+import com.example.xisdoandre.domain.repository.ProductRepository
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.channels.awaitClose

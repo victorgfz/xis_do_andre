@@ -1,7 +1,7 @@
-package com.example.xisdoandre.domain
+package com.example.xisdoandre.domain.usecase
 
 import com.example.xisdoandre.data.model.OrderHistoryItem
-import com.example.xisdoandre.data.repository.OrderRepository
+import com.example.xisdoandre.domain.repository.OrderRepository
 import kotlinx.coroutines.flow.Flow
 
 class GetOrderHistoryUseCase(private val orderRepository: OrderRepository) {

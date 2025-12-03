@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.xisdoandre.data.model.Product
 import com.example.xisdoandre.data.repository.ProductRepositoryImpl
-import com.example.xisdoandre.domain.GetProductsUseCase
+import com.example.xisdoandre.domain.usecase.GetProductsUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch

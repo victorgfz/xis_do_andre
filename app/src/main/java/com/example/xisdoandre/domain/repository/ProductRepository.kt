@@ -1,4 +1,4 @@
-package com.example.xisdoandre.data.repository
+package com.example.xisdoandre.domain.repository
 
 import com.example.xisdoandre.data.model.Product
 import kotlinx.coroutines.flow.Flow

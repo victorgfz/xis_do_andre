@@ -1,7 +1,7 @@
-package com.example.xisdoandre.domain
+package com.example.xisdoandre.domain.usecase
 
 import com.example.xisdoandre.data.model.Product
-import com.example.xisdoandre.data.repository.ProductRepository
+import com.example.xisdoandre.domain.repository.ProductRepository
 import kotlinx.coroutines.flow.Flow
 
 class GetProductsUseCase(private val productRepository: ProductRepository) {

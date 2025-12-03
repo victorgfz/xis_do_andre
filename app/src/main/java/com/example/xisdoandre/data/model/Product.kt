@@ -2,7 +2,7 @@ package com.example.xisdoandre.data.model
 
 import com.google.firebase.firestore.PropertyName
 
-// ============ DATA CLASS PARA PRODUTOS (COMPATÍVEL COM FIREBASE) ============
+// ============ DATA CLASS PARA PRODUTOS (FIREBASE) ============
 data class Product(
     @get:PropertyName("id") @set:PropertyName("id") var id: String = "",
     @get:PropertyName("nome") @set:PropertyName("nome") var nome: String = "",

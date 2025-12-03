@@ -7,7 +7,7 @@ import com.example.xisdoandre.data.model.Order
 import com.example.xisdoandre.data.model.OrderItem
 import com.example.xisdoandre.data.model.Product
 import com.example.xisdoandre.data.repository.OrderRepositoryImpl
-import com.example.xisdoandre.domain.PlaceOrderUseCase
+import com.example.xisdoandre.domain.usecase.PlaceOrderUseCase
 import com.google.firebase.firestore.FieldValue
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

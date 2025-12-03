@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.xisdoandre.data.model.OrderHistoryItem
 import com.example.xisdoandre.data.repository.OrderRepositoryImpl
-import com.example.xisdoandre.domain.GetOrderHistoryUseCase
+import com.example.xisdoandre.domain.usecase.GetOrderHistoryUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch

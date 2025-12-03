@@ -2,6 +2,7 @@ package com.example.xisdoandre.data.repository
 
 import com.example.xisdoandre.data.model.Order
 import com.example.xisdoandre.data.model.OrderHistoryItem
+import com.example.xisdoandre.domain.repository.OrderRepository
 import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
